@@ -11,7 +11,6 @@ void QRcodeEink::init() {
     display->init();
     this->screenwidth = display->width();
     this->screenheight = display->height();
-    display->setRotation(1);
     display->eraseDisplay();
     int min = screenwidth;
     if (screenheight<screenwidth)
