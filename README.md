@@ -4,21 +4,26 @@ Subclass that you can use jointly with https://github.com/yoprogramo/QRcodeDispl
 
 To use it:
 
-* In platform.io: add as dependencies:
+## In platform.io 
 
- ** yoprogramo/QRcodeDisplay
- ** yoprogramo/QRcodeEink
- ** adafruit/Adafruit GFX Library@1.7.5
- ** https://github.com/lewisxhe/GxEPD
+Add as dependencies:
 
- * In arduino ide open Library Manager (menu Sketch > Include Library > Manage Libraries…) then install the following libraries:
+ * yoprogramo/QRcodeDisplay
+ * yoprogramo/QRcodeEink
+ * adafruit/Adafruit GFX Library@1.7.5
+ * https://github.com/lewisxhe/GxEPD
+
+## In arduino ide 
+
+Open Library Manager (menu Sketch > Include Library > Manage Libraries…) then install the following libraries:
 
  ** QRcodeDisplay
  ** QRcodeOled
  ** Adafruit GFX Library@1.7.5
  ** https://github.com/lewisxhe/GxEPD
 
- Creating a QRcode is just as simple as:
+ 
+Creating a QRcode is just as simple as:
 
  ```
 #define ELINK_SS 5
