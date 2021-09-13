@@ -1,0 +1,24 @@
+{
+  "name": "QRcodeEink",
+  "version": "1.0.0",
+  "keywords": "qr code, ESP32, ESP8266, E-INK",
+  "description": "QR code generation for E-INK displays",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/yoprogramo/QRcodeEink"
+  },
+  "authors":
+  [
+    {
+        "name": "Jose Antonio Espinosa",
+        "email": "yoprogramo@gmail.com",
+        "url": "https://yoprogramo.com"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif8266",
+    "espressif32"
+  ]
+}
