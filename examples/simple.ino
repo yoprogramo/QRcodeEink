@@ -6,7 +6,7 @@
 #include <GxEPD.h>
 #include <GxIO/GxIO_SPI/GxIO_SPI.h>
 #include <GxIO/GxIO.h>
-#include <qrcodeeink.h>
+#include "qrcodeeink.h"
 
 GxIO_Class io(SPI, ELINK_SS, ELINK_DC, ELINK_RESET);
 GxEPD_Class display(io, ELINK_RESET, ELINK_BUSY);

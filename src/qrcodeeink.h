@@ -7,7 +7,7 @@
 
 #define EINKDISPLAY
 
-#include "qrcodedisplay.h"
+#include <qrcodedisplay.h>
 #include <Adafruit_GFX.h>   
 #include <GxEPD.h>
 #include <GxGDE0213B72B/GxGDE0213B72B.h>
